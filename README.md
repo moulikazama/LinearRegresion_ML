@@ -1,2 +1,3 @@
 # rainfallindia
-predicting rainfall in india using ml
+predicting rainfall in india using multi linear regression
+
