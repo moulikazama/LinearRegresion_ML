@@ -9,8 +9,8 @@ from sklearn.preprocessing import StandardScaler
 st.title("RAINFALL DATASET OF INDIA")
 
 #importing data set
-district_wise_rainfall = pd.read_csv(r"C:\Users\ADMIN\Downloads\rainfall data set with year\district wise rainfall normal.csv")
-year_wise_rainfall = pd.read_csv(r"C:\Users\ADMIN\PycharmProjects\rainfall prediction streamlit\rainfall in india 1901-2015.csv")
+district_wise_rainfall = pd.read_csv(r"rainfall/district wise rainfall normal.csv")
+year_wise_rainfall = pd.read_csv(r"rainfall/district wise rainfall normal.csv.csv")
 
 #replaceing null values
 def null_val(data,clm):
