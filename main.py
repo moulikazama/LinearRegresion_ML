@@ -10,7 +10,7 @@ st.title("RAINFALL DATASET OF INDIA")
 
 #importing data set
 district_wise_rainfall = pd.read_csv(r"rainfall/district wise rainfall normal.csv")
-year_wise_rainfall = pd.read_csv(r"rainfall/district wise rainfall normal.csv.csv")
+year_wise_rainfall = pd.read_csv(r"rainfall/rainfall in indai 1901-2015.csv")
 
 #replaceing null values
 def null_val(data,clm):
